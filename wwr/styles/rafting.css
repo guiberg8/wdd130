@@ -157,3 +157,14 @@ th, td {
 th {
   background-color: #f2f2f2;
 }
+
+.image {
+  text-align: center;
+}
+
+.image img {
+  max-width: 100%;
+  height: auto;
+  display: inline-block; /* Ensure images align properly */
+  margin-bottom: 20px; /* Add space between images */
+}
