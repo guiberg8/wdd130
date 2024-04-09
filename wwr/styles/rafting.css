@@ -142,3 +142,18 @@ button {
 button:hover {
   background-color: grey;
 }
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  border: 2px solid #000;
+}
+th, td {
+  padding: 10px;
+  border: 1px solid #000;
+  text-align: left;
+}
+th {
+  background-color: #f2f2f2;
+}
